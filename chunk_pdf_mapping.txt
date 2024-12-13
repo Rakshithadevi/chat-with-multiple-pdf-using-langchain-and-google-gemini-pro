@@ -1,0 +1,245 @@
+Chat With Multiple PDF Documents With Langchain And 
+Google Gemini Pro  
+ 
+PROJECT WORK 1(REVIEW 1)  
+  Submitted by  
+     DHARANI E        2122212300 21 
+                      RAKSHITHA DEV I J       2122212300 82 
+               SUDHARSHNA LAKSHMI S       212221230 110 
+ 
+in partial fulfillment for the award 
+of the degree of  
+BACHELOR OF TECHNOLOGY  
+in 
+ 
+ARTIFICIAL INTELLIGENCE AND DATA SCIENCE  
+ 
+ 
+             SAVEETHA ENGINEERING COLLEGE, THANDALAM  
+   An Autonomous Institution Affiliated to  
+ANNA UNIVERSITY - CHENNAI 600 025  
+ 
+NOVEMBER 2024   
+Abstract  
+This project presents a cutting -edge application leveraging Google's Gemini Pro, a large 
+language model (LLM), integrated with LangChain to enable advanced document search and 
+retrieval capabilities. By utilizing FAISS (Facebook AI Similarity Search) for v ector 
+embeddings, the application efficiently indexes and searches through multiple PDF documents. 
+The FAISS vector embeddings allow for high -dimensional similarity searches, ensuring that 
+relevant information is quickly and accurately retrieved from vast amounts of text. This 
+combination of technologies provides a powerful tool for knowledge extraction, making it ideal 
+for research, legal, and academic use cases where rapid and precise document analysis is 
+required.  
+Finding and retrieving information from PDF documents has become more difficult as digital 
+items become more commonplace. This capability transforms passive viewing into an 
+interactive learning experience, enabling users to explore topics more thoroughly.  
+To create a userfriendly interface, LangChain utilizes Streamlit, a web application framework 
+that eliminates the need for expertise in other web development frameworks like HTML and 
+CSS. Streamlit enables the seamless deployment of models with minimal cod ing effort. With 
+LangChain and Streamlit, users can easily interact with PDFs, making document search and 
+retrieval significantly more convenient. The PDF Query App Project uses Language Models 
+(LLMs) and LangChain, a cutting -edge language processing tool,  to transform how users 
+interact with PDF documents. By allowing users to have interactive conversations with PDF 
+documents, this project solves the fundamental drawbacks of conventional PDF readers  
+  TABLE OF CONTENTS  
+ 
+SI NO  TITLE OF CONTENT  PAGE 
+NO. 
+1 Introduction  1 
+2 Problem Definition  2 
+3 Existing System  3 
+4 Literature Survey  4 
+5 Scope of the Project  6 
+6 Proposed Solution  7 
+7 References  8 
+ 
+ 
+  1. Introduction  
+      This project introduces an advanced application that harnesses the power of Google's 
+Gemini Pro, a state -of-the-art large language model (LLM), in conjunction with LangChain, 
+to revolutionize the way users interact with PDF documents. By implementing FAISS  
+(Facebook AI Similarity Search) for vector embeddings, the application offers an innovative 
+approach to document indexing and search, enabling precise and rapid access to information . 
+    The rapid growth of digital products is expanding exponentially, making the task of 
+searching and retrieving information from PDF documents increasingly challenging. 
+Fortunately, we now have a tool that revolutionizes Natural Language Processing (NLP) and 
+enables the development of applications based on Large Language Models (LLMs). 
+LangChain, a cutting -edge solution, streamlines the querying process and facilitates 
+information extraction from PDFs. Utilizing advanced NLP algorithms, LangChain allows 
+users to interact with PDFs, simplifying document search and retrieval.  
+ 
+Once our LLM model is built, we will use Streamlit, a web application framework, to create 
+custom, visually appealing web applications. A key advantage of Streamlit is that it does not 
+require expertise in other web development frameworks like HTML and CSS . With minimal 
+effort and code, Streamlit allows for the instant deployment of models, making it an efficient 
+and user -friendly tool for application development. . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2. Problem Definition  
+ 
+As digital documents, especially PDFs, have become increasingly prevalent, traditional 
+keyword -based search methods often struggle to effectively retrieve information from complex 
+and context -rich texts. These methods fail to capture the nuanced meanings, relationships, and 
+contexts within documents, resulting in incomplete or inaccurate search results. This challenge 
+is particularly significant for professionals in research, law, and academia, who require precise 
+and efficient document analysis tools.  
+ 
+The problem is further compounded by the limitations of conventional PDF readers, which offer 
+passive document viewing without interactive features to facilitate deeper exploration of 
+content. As the volume of digital documents grows, users need more advan ced solutions for 
+searching, retrieving, and interacting with textual data.  
+ 
+To address these challenges, this project introduces an advanced document search and retrieval 
+system that leverages Google's Gemini Pro (LLM) and LangChain, utilizing FAISS (Facebook 
+AI Similarity Search) for vector embeddings. These embeddings capture se mantic relationships 
+between words and phrases, enabling high -dimensional similarity searches that provide 
+context -aware and accurate results. The system transforms how users interact with PDFs by 
+allowing them to have interactive, conversational experienc es with the documents, enabling 
+efficient knowledge extraction.  
+ 
+By integrating Streamlit, a web application framework, with LangChain, the project also 
+ensures a user -friendly interface, making document interaction and model deployment seamless 
+and accessible without requiring extensive coding knowledge. This innovativ e solution solves 
+the fundamental drawbacks of conventional PDF readers, providing a more dynamic and 
+intelligent approach to document search and retrieval.  
+ 3. Existing System   
+In the current landscape, the process of searching and retrieving information from PDF 
+documents is challenging and often inefficient. The existing systems rely on traditional 
+methods, which include:  
+Manual Search : Users manually scroll through PDF documents, using basic keyword search 
+functions that fail to capture the context or meaning behind the words, resulting in irrelevant 
+or incomplete results.  
+Limited Interaction : Conventional PDF readers provide static, passive viewing experiences 
+with no interactive features to assist in querying or extracting specific information from the 
+documents.  
+Lack of Advanced Natural Language Processing (NLP) : Existing tools do not incorporate 
+advanced NLP algorithms, meaning users cannot perform complex or context -aware searches 
+within PDFs. This leads to inefficiencies in finding precise information in large or complex 
+documents.  
+Web Application Development Challenges : For developers, building web applications 
+often requires familiarity with multiple frameworks like HTML and CSS, making the 
+deployment of models more time -consuming and complex.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+4. Literature Survey  
+ 
+ 
+ 
+ 
+ 
+      
+ 
+ 
+ 
+5. Scope of the Project  
+ 
+The scope of this project is to develop a cutting -edge document search and retrieval system 
+that leverages Large Language Models (LLMs) with LangChain for efficient querying and 
+information extraction from PDF documents. By utilizing advanced Natural Langu age 
+Processing (NLP), the system will enable users to interact with documents in a more intuitive 
+and context -aware manner, overcoming the limitations of traditional keyword -based searches. 
+This will transform passive document viewing into an interactive e xperience, allowing users 
+to explore and extract relevant information quickly and accurately. The system is particularly 
+beneficial for professionals such as researchers, legal experts, and academics, who often 
+handle large amounts of complex digital conte nt. 
+Additionally, the project includes the development of a user -friendly web application using 
+Streamlit, a framework that simplifies the deployment process without requiring knowledge 
+of web development languages like HTML or CSS. The system is designed to b e scalable, 
+capable of handling vast volumes of documents while maintaining performance and 
+efficiency. Future potential enhancements include support for additional document formats, 
+integration with external databases or cloud storage, and the addition of  features like 
+multimodal interaction for more complex document types. The solution aims to significantly 
+improve document search and retrieval workflows, particularly in knowledge -intensive 
+industries.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6. Proposed Solution  
+ 
+The proposed solution is to build an advanced document search and retrieval system that 
+leverages Large Language Models (LLMs), specifically integrating Google’s Gemini Pro  with 
+LangChain  and FAISS (Facebook AI Similarity Search)  for efficient and context -aware 
+searches within PDF documents. By utilizing vector embeddings through FAISS, the system 
+will enable high -dimensional similarity searches, capturing the semantic relationships between 
+words and phrases, thereby allowing for more accurate and relevant information retrieval. This 
+will solve the limitations of traditional keyword -based search systems by understanding the 
+context and meaning of the content.  
+To ensure ease of use, the system will incorporate Streamlit , a web application framework that 
+simplifies deployment. Streamlit allows the creation of a user -friendly interface with minimal 
+coding effort, eliminating the need for familiarity with traditional web development 
+frameworks like HTML and CSS. Users will be able to upload PDFs, query documents, and 
+interact with the results in a seamless, interactive environment. This combination of 
+technologies will offer a powerful tool for professionals such as researchers, legal experts, and | Project Review 1 - 212221230082.pdf | Untitled
+searches within PDF documents. By utilizing vector embeddings through FAISS, the system 
+will enable high -dimensional similarity searches, capturing the semantic relationships between 
+words and phrases, thereby allowing for more accurate and relevant information retrieval. This 
+will solve the limitations of traditional keyword -based search systems by understanding the 
+context and meaning of the content.  
+To ensure ease of use, the system will incorporate Streamlit , a web application framework that 
+simplifies deployment. Streamlit allows the creation of a user -friendly interface with minimal 
+coding effort, eliminating the need for familiarity with traditional web development 
+frameworks like HTML and CSS. Users will be able to upload PDFs, query documents, and 
+interact with the results in a seamless, interactive environment. This combination of 
+technologies will offer a powerful tool for professionals such as researchers, legal experts, and 
+academics, who require prec ise and efficient document analysis. Additionally, the solution is 
+designed to scale, allowing it to handle large volumes of documents while maintaining 
+performance. Future enhancements can include support for more document formats, external 
+data integrati on, and advanced multimodal interactions.  7. References  
+[1]    Asbjørn Følstad and Marita Skjuve. 2019. Chatbots for customer service: 
+user experience and motivation. In Proceedings of the 1st International 
+Conference on Conversational User Interfaces (CUI '19). Association for 
+Computing Machinery, New York, NY, USA, Article 1, 1 –9. 
+https://doi.org/10.1145/3342775.3342784  
+ 
+[2] Su, Hongjin, Weijia Shi, Jungo Kasai, Yizhong Wang, Yushi Hu, Mari 
+Ostendorf, Wen Yih, Noah A. Smith, Luke Zettlemoyer, and Tao Yu. 
+"One Embedder, Any Task: Instruction -Finetuned Text Embeddings." 
+ArXiv, (2022). /abs/2212.09741. N W Marti et al 2020  J. Phys.:  Conf. 
+Ser. 1516 012022  
+[3] Kim, S., Rawat, A. S., Zaheer, M., Jayasumana, S., Sadhanala, V., 
+Jitkrittum , W., Menon, A. K., Fergus, R., & Kumar, S. (2023). 
+EmbedDistill: A Geometric Knowledge Distillation for Information 
+Retrieval. ArXiv. /abs/2301.12005  
+[4] https://www.youtube.com/watch?v=uus5eLz6smA  
+[5] https://www.youtube.com/watch?v=uus5eLz6smA  
+[6] https://www.youtube.com/watch?v=uus5eLz6smA  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+             Rakshi tha Devi J (AI - DS)            Ms. Shobana  
+           Saveetha Engineering College                       SUPERVISOR  
+                   Chennai - 602105             Asst. Professor  
+                                                             Saveetha Engineering College | Project Review 1 - 212221230082.pdf | Untitled
