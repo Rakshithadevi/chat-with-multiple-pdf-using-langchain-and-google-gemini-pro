@@ -86,4 +86,5 @@ def main():
                     st.error("No text extracted from the PDF. Please check the file content.")
 
 if __name__ == "__main__":
-    main()
+    import os
+    os.system("streamlit run app.py --server.port $PORT --server.address 0.0.0.0")
